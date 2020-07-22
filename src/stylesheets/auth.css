@@ -1,0 +1,35 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.imgbox {
+  height: 100vh;
+  min-height:100%;
+  background:url(../images/bg-2.jpg) rgba(255, 0, 76, 0.5);
+  background-size:cover;
+  background-blend-mode: multiply;
+}
+
+.auth{
+  height: 100vh;
+  /* background-color: rgba(152, 135, 152, 0.5); */
+}
+
+.auth_Form{
+  width:80%;
+  margin:2rem auto;
+}
+
+.reg_input{
+  height: 4rem;
+}
+
+.reg_input:focus{
+  border: none !important;
+}
+
+.nav_ref{
+  color:black;
+}
